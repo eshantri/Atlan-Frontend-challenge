@@ -4,6 +4,13 @@
 
 A web-based SQL query editor and results viewer that lets you run queries and explore data with a smooth, responsive interface. Hi, I'm Eshan Tripathi, a Frontend engineer who's making this project for Atlan's Interview challenge task.
 
+## Walkthrough
+
+Attaching my video walkthrough over here, sorry it went approx 4 mins, rusty editing skills I guess.
+
+https://github.com/user-attachments/assets/4fab14f1-0305-43dd-8102-ede8d485d796
+
+
 ## Implementation Details
 
 ### Framework and Libraries Installed
