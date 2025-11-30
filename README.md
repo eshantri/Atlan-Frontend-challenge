@@ -73,3 +73,17 @@ Files: `src/components/HeaderBar.tsx`, `src/App.tsx`
 Custom component library built on top of Radix UI primitives with TailwindCSS v4.
 Files: `src/components/ui/`
 
+## Optimizations
+
+I used Claude Sonnet 4.5 to help optimize both the build process and SEO for this project.
+
+**Build Optimizations** (vite.config.ts):
+I configured manual code splitting to break the bundle into focused chunks (react-core, ui-framework, layout-utils, data-processing, code-editor) which allows parallel loading and better caching. Also set up Terser minification to strip out console logs and debugger statements in production, plus configured dependency pre-bundling and server warmup for faster dev experience.
+
+**SEO Optimizations**:
+Added comprehensive meta tags including Open Graph and Twitter cards for better social sharing, implemented JSON-LD structured data for search engines, created robots.txt and sitemap.xml for better crawlability, added a PWA manifest for progressive web app capabilities, and set up canonical URLs to avoid duplicate content issues. These changes boosted the Lighthouse SEO score significantly.
+
+## AI Usage
+
+I used Claude Sonnet 4.5 to generate boilerplate code for components and UI primitives, write utility functions like localStorage management and data formatting, create the mock data structure and query execution logic, and optimize both the build configuration and SEO setup.
+
