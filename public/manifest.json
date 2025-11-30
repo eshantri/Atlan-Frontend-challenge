@@ -1,0 +1,22 @@
+{
+  "name": "SQL Query Runner - Interactive Query Editor",
+  "short_name": "SQL Runner",
+  "description": "A fast, modern SQL query runner with interactive results table, syntax highlighting, and data export capabilities",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "developer tools", "utilities"],
+  "lang": "en",
+  "dir": "ltr"
+}
+
