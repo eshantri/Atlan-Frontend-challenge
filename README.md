@@ -75,6 +75,12 @@ Files: `src/components/ui/`
 
 ## Optimizations
 
+Page Load Metrics for the project, measured using `lighthouse` utility-
+ - LCP -> 0.9s
+ - FCP -> 0.6s
+Other Metrics-
+<img width="571" height="242" alt="Screenshot 2025-11-30 182256" src="https://github.com/user-attachments/assets/3c1c4d42-43c3-42be-b964-5d8eda8bafbf" />
+
 I used Claude Sonnet 4.5 to help optimize both the build process and SEO for this project.
 
 **Build Optimizations** (vite.config.ts):
